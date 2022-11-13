@@ -5,166 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb88b0d4-2bcb-4989-92dd-b5963f9ca5f8" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Full-Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/containersController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/dashboardController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/disksController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/loginController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/logsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/settingsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/sharesController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/usersController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/vmsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/components/serverDashInfo.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/containers.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/dashboard.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/disks.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/login.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/logs.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/settings.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/shares.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/users.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/vms.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BetterNAS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Console/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Exceptions/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Auth/AuthenticatedSessionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Auth/ConfirmablePasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Auth/EmailVerificationNotificationController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Auth/EmailVerificationPromptController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Auth/NewPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Auth/PasswordResetLinkController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Auth/RegisteredUserController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Auth/VerifyEmailController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Controllers/Usage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/HandleInertiaRequests.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/ValidateSignature.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Http/Requests/Auth/LoginRequest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Providers/AppServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Providers/AuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Providers/EventServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/app/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/bootstrap/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/cors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/sanctum.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/database/seeders/DatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/lang/en/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/ApplicationLogo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/Checkbox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/Dropdown.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/DropdownLink.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/InputError.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/InputLabel.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/NavLink.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/PrimaryButton.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/ResponsiveNavLink.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/TextInput.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Components/Usage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Layouts/AuthenticatedLayout.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Layouts/GuestLayout.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Pages/Auth/ConfirmPassword.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Pages/Auth/ForgotPassword.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Pages/Auth/Login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Pages/Auth/Register.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Pages/Auth/ResetPassword.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Pages/Auth/VerifyEmail.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Pages/Dashboard.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/Pages/Welcome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/views/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/routes/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/routes/channels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/routes/console.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/storage/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/storage/app/public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/storage/framework/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/storage/framework/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/storage/framework/sessions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/storage/framework/testing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/storage/framework/views/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/storage/logs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tests/Feature/Auth/AuthenticationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tests/Feature/Auth/EmailVerificationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tests/Feature/Auth/PasswordConfirmationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tests/Feature/Auth/PasswordResetTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tests/Feature/Auth/RegistrationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tests/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/tests/Unit/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BetterNAS/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,19 +61,6 @@
       <recent name="$PROJECT_DIR$/src/assets/styles" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -242,6 +71,7 @@
       <updated>1668016011072</updated>
       <workItem from="1668016013510" duration="12580000" />
       <workItem from="1668186615029" duration="22918000" />
+      <workItem from="1668302659892" duration="214000" />
     </task>
     <servers />
   </component>
