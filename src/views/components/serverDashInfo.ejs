@@ -1,0 +1,21 @@
+<div class="col m-3 p-3 border bg-dark-gray">
+    <div>
+        <div class="fs-3">
+            MOTHERBOARD
+        </div>
+    </div>
+    <div style="width: fit-content">
+        <% cpuStats.forEach(function (stat, index) { %>
+        <div class="d-flex">
+            <div class="me-auto">
+                <%=index%>
+            </div>
+            <div class="ms-auto" style="width: 100px; height: 10px; background-color: darkgray; margin: 5px;">
+                <div style="height:10px; background-color: red; width: <%=stat.cpu.toFixed(2)%>%;"></div>
+            </div>
+        </div>
+
+        <%});%>
+    </div>
+
+</div>
