@@ -1,3 +1,22 @@
 
 default:
   port: 8080
+  db:
+    type: sqlite
+
+    # PostgreSQL / MySQL / MariaDB / MS SQL Server only:
+    host: localhost
+    port: 5432
+    user: BetterNAS
+    pass: BetterNAS1234
+    db: BettterNAS
+    ssl: false
+    # Optional - PostgreSQL only:
+    schema: public
+
+    # SQLite only:
+    storage: /home/david/Dev/BetterNAS/database/database.sqlite
+
+  pool:
+  logLevel: info
+  logFormat: default

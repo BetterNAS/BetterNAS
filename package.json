@@ -20,10 +20,23 @@
   },
   "homepage": "https://github.com/BetterNAS/BetterNAS#readme",
   "dependencies": {
+    "auto-load": "^3.0.4",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
     "cpu-stats": "^1.0.0",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "node-yaml-config": "^1.0.0"
+    "express-session": "^1.17.3",
+    "fs-extra": "^10.1.0",
+    "knex": "^2.3.0",
+    "lodash": "^4.17.21",
+    "node-yaml-config": "^1.0.0",
+    "objection": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "semver": "^5.7.1",
+    "sqlite3": "^5.1.2",
+    "winston": "^3.8.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.20",
