@@ -45,7 +45,7 @@ try {
   process.exit(1)
 }
 
-//loginCheck(passport);
+loginCheck(passport);
 
 
 // Configure Express to use EJS
