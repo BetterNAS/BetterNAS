@@ -1,21 +1,62 @@
 <div class="col m-3 p-3 border bg-dark-gray">
     <div>
-        <div class="fs-3">
-            MOTHERBOARD
-        </div>
-    </div>
-    <div style="width: fit-content">
-        <% cpuStats.forEach(function (stat, index) { %>
-        <div class="d-flex">
-            <div class="me-auto">
-                <%=index%>
-            </div>
-            <div class="ms-auto" style="width: 100px; height: 10px; background-color: darkgray; margin: 5px;">
-                <div style="height:10px; background-color: red; width: <%=stat.cpu.toFixed(2)%>%;"></div>
+        <div class="row">
+            <i class="bi bi-motherboard fs-1 col-1"></i>
+            <div class="col">
+                MOTHERBOARD
             </div>
         </div>
+        <%= motherboard.manufacturer %>, <%= motherboard.model %>, Version: <%= motherboard.version %>
+        <br>
+        <%= bios.vendor %>, Version: <%= bios.version %>
+        <br>
+        BIOS Date: <%= bios.releaseDate %>
 
-        <%});%>
     </div>
+    <hr>
+    <div>
+        <div class="row">
+            <i class="bi bi-cpu fs-1 col-1"></i>
+            <div class="col">
+                <%= cpus[0].model %>
+                <div class="text-white-50">
+                    Load: <%= cpuLoad.avgLoad * 100 %>%
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap" style="max-width: 400px">
+            <% cpuLoad.cpus.forEach(function (stat, index) { %>
+                <div class="d-flex" >
+                    <div class="me-auto col-2">
+                        <%=index%>
+                    </div>
+                    <div class="ms-auto" style="width: 100px; height: 10px; background-color: darkgray; margin: 5px;">
+                        <div style="height:10px; background-color: red; width: <%=stat.load.toFixed(2)%>%;"></div>
+                    </div>
+                </div>
+            <%});%>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div class="row">
+            <i class="bi bi-memory fs-1 col-1"></i>
+            <div class="col">
+                MEMORY
+            </div>
+        </div>
+        Total: <%=mem.total%>
+        <div class="ms-auto" style="width: 100%; height: 10px; background-color: darkgray; margin: 5px;">
+            <div style="height:10px; background-color: red; width: <%=mem.used / mem.total%>%;"></div>
+        </div>
+        <% memLayout.forEach(function (slot) { %>
+            <div class="border">
+                Size: <%=(slot.size !== '') ? (slot.size / 1024 / 1024 / 1024).toFixed(2) : 'N/A'%>GiB
+                Speed: <%=(slot.clockSpeed !== '') ? slot.clockSpeed : 'N/A'%>
+                Type: <%=(slot.type !== '') ? slot.type : 'N/A'%> <%=slot.formFactor%>
+                Bank: <%=(slot.bank !== '') ? slot.bank : 'N/A'%>
 
+            </div>
+        <% }); %>
+    </div>
 </div>

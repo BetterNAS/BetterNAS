@@ -1,14 +1,26 @@
-const dashboardView = (req, res) => {
+const os = require('os');
+const si = require('systeminformation');
 
-  var cpuStats = require('cpu-stats');
+const dashboardView = async (req, res) => {
 
-  cpuStats(500, function (error, result) {
-    res.render("dashboard", {
-      navLink: "dashboard",
-      user: req.user,
-      cpuStats: result
-    });
-  })
+  var motherboard;
+
+  si.baseboard()
+    .then(data => motherboard = data)
+    .catch(error => console.error(error));
+
+  res.render("dashboard", {
+    navLink: "dashboard",
+    user: req.user,
+    cpuStats: [{cpu: 50},{cpu: 50},{cpu: 50},{cpu: 50},{cpu: 50},{cpu: 50},{cpu: 50}],
+    cpus: os.cpus(),
+    cpuLoad: await si.currentLoad(),
+    motherboard: await si.baseboard(),
+    bios: await si.bios(),
+    mem: await si.mem(),
+    memLayout: await si.memLayout(),
+  });
+
 };
 
 module.exports = {
